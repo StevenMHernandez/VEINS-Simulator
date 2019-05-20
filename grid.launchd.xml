@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- debug config -->
+<!-- For running sumo with omnet++ (veins) -->
+<launch>
+	<copy file="grid.net.xml" />
+	<copy file="grid.rou.xml" />
+	<copy file="grid.additional.xml" />
+	<copy file="grid.poly.xml" />
+	<copy file="grid.sumocfg" type="config" />
+</launch>
+
